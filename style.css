@@ -17,6 +17,7 @@ nav{
 nav h1{
     font-size: 40px;
     color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 article{
     display: grid;
@@ -31,4 +32,19 @@ article footer{
 article footer div{
     margin-left: 20px;
     margin-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px    ;
+}
+.footer input[type='text']{
+    padding: 5px;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+.footer input[type='submit']{
+    padding: 5px;
 }
